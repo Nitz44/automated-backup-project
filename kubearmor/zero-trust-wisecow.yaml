@@ -1,0 +1,18 @@
+apiVersion: security.kubearmor.com/v1
+kind: KubeArmorPolicy
+metadata:
+  name: backup-zero-trust
+  namespace: default
+spec:
+  selector:
+    matchLabels:
+      app: backup
+  process:
+    matchPaths:
+      - path: "/home/ubuntu/backup-project"
+        action: Block
+        severity: 5
+  file:
+    matchPaths:
+      - path: "/home/ubuntu/backup-project/*"
+        action: Monitor
