@@ -1,0 +1,12 @@
+----------------------------------------
+Backup started at: Sat Nov 29 22:17:48 UTC 2025
+[OK] Tar file created: /tmp/backup-2025-11-29_22-17-48.tar.gz
+[OK] Uploaded to S3 bucket: s3://my-ec2-backups-12345
+[DONE] Backup completed successfully at: Sat Nov 29 22:17:49 UTC 2025
+----------------------------------------
+----------------------------------------
+Backup started at: Sat Nov 29 22:22:38 UTC 2025
+[OK] Tar file created: /tmp/backup-2025-11-29_22-22-38.tar.gz
+[OK] Uploaded to S3 bucket: s3://my-ec2-backups-12345
+[DONE] Backup completed successfully at: Sat Nov 29 22:22:39 UTC 2025
+----------------------------------------
